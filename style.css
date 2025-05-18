@@ -1,0 +1,54 @@
+/* Tonos cálidos */
+p {
+    background-color: peachpuff; 
+}
+
+header {
+    background-color: coral; 
+    color: white; /* texto blanco para contraste */
+}
+
+a {
+    color: darkred; /* Enlaces */
+}
+
+nav ul li {
+    list-style-type: disc; /* puntos */
+    display: block; /* vertical */
+    text-decoration: underline; /* subrayado */
+}
+
+li {
+    padding: 10px; /* Para lista vertical */
+    text-decoration: underline;
+}
+
+/* Hover para enlaces */
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Estilo para clase */
+.nombreclase {
+    background-color: #d04d4d; /* rojo */
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Estilo para id */
+#idelemento {
+    background-color: aqua;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* Opcional: estilo para íconos */
+.material-icons {
+    font-size: 36px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+}
